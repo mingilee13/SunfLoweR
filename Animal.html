@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><img width="50px" src="img/sunflower.gif"/></li>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Animal</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">List of animals</a>
+                    <a href="#" class="dropdown-item">Search for animals</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+        </ul>
+    </div>
+
+    <div class="animal-type">
+        <lable for="animal-type">Type</lable>
+        <select id="animal-types" placeholder="Pick the animal type">
+            <option value="">Select the animal type</option>
+            <option value="amphibian">Amphibian</option>
+            <option value="arthopod">Arthopod</option>
+            <option value="bird">Bird</option>
+            <option value="fish">Fish</option>
+            <option value="mammals">Mammals</option>
+            <option value="mollusk">Mollusk</option>
+            <option value="reptiles">Reptiles</option>
+        </select>
+    </div>
+
+    <p>OR</p>
+
+    <div class="animal-areas">
+        <label for="animal-areas">Areas</label>
+        <select id="animal-areas" placeholder="Pick the animal areas">
+            <option value="">Select the animal areas</option>
+            <option value="worldwide">Worldwide</option>
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="Australia">Australia</option>
+            <option value="north-america">North America</option>
+            <option value="northern-hemisphere">Northern Hemisphere</option>
+            <option value="south-america">South America</option>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
