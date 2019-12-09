@@ -11,57 +11,54 @@
 </head>
 
 <body>
-    <div>
-        <ul class="nav justify-content-end">
-            <li class="nav-item"><img width="40px" src="img/sunflower.gif"/></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Animal</a>
-                <div class="dropdown-menu">
-                    <div class="column">
-                        <h3>Type</h3>
-                        <a href="#">Amphibians</a>
-                        <a href="#">Arthopods</a>
-                        <a href="#">Birds</a>
-                        <a href="#">Fish</a>
-                        <a href="#">Mammals</a>
-                        <a href="#">Mollusks</a>
-                        <a href="#">Reptiles</a>
-                    </div>
-                    <div class="column">
-                        <h3>Areas</h3>
-                        <a href="#">Africa</a>
-                        <a href="#">Asia</a>
-                        <a href="#">Australia</a>
-                        <a href="#">North America</a>
-                        <a href="#">North Hemisphere</a>
-                        <a href="#">South America</a>
-                        <a href="#">Worldwide</a>
-                    </div>
+  <div>
+      <ul class="nav justify-content-end">
+          <li class="nav-item"><img width="50px" src="img/sunflower.gif"/></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Animal</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">List of animals</a>
+                      <a href="#" class="dropdown-item">Search for animals</a>
+                  </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+      </ul>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <img class="animal" src="img/mimic_octopus.jpg" alt="An image of an octupus" width="400px">
+          <div class="row">
+            <a href="#" class="button more">FIND OUT MORE</a>
+          </div>
+      </div>
+      <div class="col">
+      <h1> Mimic Octopus </h1>
+        <div class="information">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img class="icon" src="img/paw-print-.png" alt="An image of a paw" height="20px" width="20px">
+                <div class="container">
+                <p class="short_info"> Invertebrate </p>
                 </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-        </ul>
+              </div>
+              <img class="icon" src="img/location-pointer.png" alt="An image of a paw" height="20px" width="20px">
+              <div class="col">
+                <p class="short_info"> Asia, Australia </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="description">  Mimic Octopuses are found in shallow areas of sand and silt across Asia and Australia. They can transform themselves to appear as over 15 other animals to make themselves seem unapealing to predators. </p>
+            <h3> Super Power: Shapeshifter </h3>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <img src="img/Tonicella-lineata.jpg" height="200" width="auto"/>
-
-    <button type="button" id="fact" class="button">CLICK FOR MORE</button>
-
-    <div class="animal-detail">
-        <div class="location">
-            <img class="icon" src="img/location-pointer.png" height="32" width="32"/>
-            <p class="description">Worldwide</p>
-        </div>
-        <div class="type">
-            <img class="icon" src="img/paw-print-.png" height="32" width="32"/>
-            <p class="description">Mollusks</p>
-        </div>
-        <div class="power">
-            <img class="icon" src="img/superpower.png" height="32" width="32"/>
-            <p class="description">The animal superpower</p>
-        </div>
-    </div>
+  </div>
 
     <footer class="text-center py-3">
         <a href="#" class="fa fa-facebook"></a>
