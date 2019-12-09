@@ -1,0 +1,58 @@
+body {
+    font-family: 'Tomorrow', sans-serif;
+    background-color: #f0f8ff;
+}
+
+.nav {
+    background-color: #ffcc00;
+    padding: 7px;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background: #f0f8ff;
+    color: #ffcc00;
+    padding: auto;
+}
+
+.button {
+    background-color: #ffcc00;
+    padding: 7px;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.button a {
+    display: block;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+    background-color: #ffcc00;
+    opacity: 70%;
+    text-align: center;
+    color: white;
+}
