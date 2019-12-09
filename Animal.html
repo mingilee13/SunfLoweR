@@ -13,8 +13,26 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Animal</a>
                 <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">List of animals</a>
-                    <a href="#" class="dropdown-item">Search for animals</a>
+                    <div class="column">
+                        <h3>Type</h3>
+                        <a href="#">Amphibians</a>
+                        <a href="#">Arthopods</a>
+                        <a href="#">Birds</a>
+                        <a href="#">Fish</a>
+                        <a href="#">Mammals</a>
+                        <a href="#">Mollusks</a>
+                        <a href="#">Reptiles</a>
+                    </div>
+                    <div class="column">
+                        <h3>Areas</h3>
+                        <a href="#">Africa</a>
+                        <a href="#">Asia</a>
+                        <a href="#">Australia</a>
+                        <a href="#">North America</a>
+                        <a href="#">North Hemisphere</a>
+                        <a href="#">South America</a>
+                        <a href="#">Worldwide</a>
+                    </div>
                 </div>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
@@ -23,39 +41,44 @@
 
     <div class="search-box">
         <div class="animal-type">
-            <lable for="animal-type">Type</lable>
-            <select id="animal-types" placeholder="Pick the animal type">
-                <option value="">Select the animal type</option>
-                <option value="amphibian">Amphibian</option>
-                <option value="arthopod">Arthopod</option>
-                <option value="bird">Bird</option>
-                <option value="fish">Fish</option>
-                <option value="mammals">Mammals</option>
-                <option value="mollusk">Mollusk</option>
-                <option value="reptiles">Reptiles</option>
-            </select>
+            <form>
+                <label for="animal-types">Type</label>
+                <select id="animal-types">
+                    <option selected="selected" value="">Select the animal type</option>
+                    <option value="amphibian">Amphibian</option>
+                    <option value="arthopod">Arthopod</option>
+                    <option value="bird">Bird</option>
+                    <option value="fish">Fish</option>
+                    <option value="mammals">Mammals</option>
+                    <option value="mollusk">Mollusk</option>
+                    <option value="reptiles">Reptiles</option>
+                </select>
+            </form>
         </div>
 
         <p>OR</p>
 
         <div class="animal-areas">
-            <label for="animal-areas">Areas</label>
-            <select id="animal-areas" placeholder="Pick the animal areas">
-                <option value="">Select the animal areas</option>
-                <option value="worldwide">Worldwide</option>
-                <option value="africa">Africa</option>
-                <option value="asia">Asia</option>
-                <option value="Australia">Australia</option>
-                <option value="north-america">North America</option>
-                <option value="northern-hemisphere">Northern Hemisphere</option>
-                <option value="south-america">South America</option>
+            <form>
+                <label for="animal-areas">Areas</label>
+                <select id="animal-areas">
+                    <option value="">Select the animal areas</option>
+                    <option value="worldwide">Worldwide</option>
+                    <option value="africa">Africa</option>
+                    <option value="asia">Asia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="north-america">North America</option>
+                    <option value="northern-hemisphere">Northern Hemisphere</option>
+                    <option value="south-america">South America</option>
+            </form>
         </div>
     </div>
 
 
+
     <div class="animal-list">
-        <h1>A</h1>
-        <ul id="animal-list">
+        <p>A</p>
+        <ul id="animal-list1">
             <li>
                 <a class="animal-image">
                     <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
@@ -64,6 +87,7 @@
                     <p>Animal description</p>
                 </div>
             </li>
+
             <li>
                 <a class="animal-image">
                     <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
@@ -74,8 +98,8 @@
             </li>
         </ul>
 
-        <h1>B</h1>
-        <ul id="animal-list">
+        <p>B</p>
+        <ul id="animal-list2">
             <li>
                 <a class="animal-image">
                     <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
