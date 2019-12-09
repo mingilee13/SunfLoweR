@@ -13,12 +13,16 @@ body {
 }
 
 .nav a {
-    /*float: right;*/
+    float: right;
     display: block;
     color: inherit;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
+}
+
+#sunflower {
+    float: left;
 }
 
 .nav a:hover {
@@ -31,9 +35,11 @@ body {
     position: relative;
     top: 7px;
 }
-#sunflower {
 
+.active {
+    color: #813124;
 }
+
 .button {
     background-color: #ffcc00;
     padding: 7px;
