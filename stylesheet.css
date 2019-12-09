@@ -13,7 +13,7 @@ body {
 }
 
 .nav a {
-    float: right;
+    /*float: right;*/
     display: block;
     color: inherit;
     text-align: center;
@@ -27,6 +27,13 @@ body {
     padding: auto;
 }
 
+.nav-item {
+    position: relative;
+    top: 7px;
+}
+#sunflower {
+
+}
 .button {
     background-color: #ffcc00;
     padding: 7px;
@@ -51,7 +58,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%
-    background-color: #ffcc00;
+    background: #ffcc00;
     opacity: 70%;
     text-align: center;
     color: white;
