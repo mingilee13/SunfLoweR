@@ -3,27 +3,32 @@ body {
     background-color: #f0f8ff;
 }
 
+.my_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 .nav {
     background-color: #ffcc00;
-    padding: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: white;
-    overflow: hidden;
-    position: fixed;
+    /*overflow: hidden;*/
+    /*position: fixed;*/
     width: 100%;
 }
 
 .nav a {
-    float: right;
-    display: block;
+    /*float: right;*/
+    display: inline-block;
     color: inherit;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
 }
 
-#sunflower {
-    float: left;
-}
 
 .nav a:hover {
     background: #f0f8ff;
@@ -38,6 +43,17 @@ body {
 
 .active {
     color: #813124;
+}
+
+#sunflower {
+    margin-left: 13px;
+}
+
+#supercat {
+    position: relative;
+    display: inline-block;
+    margin-top: 120px;
+    width: 100%;
 }
 
 .button {

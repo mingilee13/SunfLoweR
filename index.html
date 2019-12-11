@@ -9,41 +9,48 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div>
-        <ul class="nav justify-content-end">
-            <li><img  width="40px" src="img/sunflower.gif"/></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown">Animal</a>
-                <div class="dropdown-menu">
-                    <div class="column">
-                        <h3>Type</h3>
-                        <a href="#">Amphibians</a>
-                        <a href="#">Birds</a>
-                        <a href="#">Fish</a>
-                        <a href="#">Invertebrates</a>
-                        <a href="#">Mammals</a>
-                        <a href="#">Reptiles</a>
+<ul class="nav fixed-top">
+    <div class="col my_row">
+            <div class="col-8">
+                <li><img  id="sunflower" width="40px" src="img/sunflower.gif"/></li>
+            </div>
+            <div class="col-4 row justify-content-end">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown">Animal</a>
+                    <div class="dropdown-menu">
+                        <div class="column">
+                            <h3>Type</h3>
+                            <a href="#">Amphibians</a>
+                            <a href="#">Birds</a>
+                            <a href="#">Fish</a>
+                            <a href="#">Invertebrates</a>
+                            <a href="#">Mammals</a>
+                            <a href="#">Reptiles</a>
+                        </div>
+                        <div class="column">
+                            <h3>Areas</h3>
+                            <a href="#">Africa</a>
+                            <a href="#">Asia</a>
+                            <a href="#">Australia</a>
+                            <a href="#">North America</a>
+                            <a href="#">North Hemisphere</a>
+                            <a href="#">South America</a>
+                            <a href="#">Worldwide</a>
+                        </div>
                     </div>
-                    <div class="column">
-                        <h3>Areas</h3>
-                        <a href="#">Africa</a>
-                        <a href="#">Asia</a>
-                        <a href="#">Australia</a>
-                        <a href="#">North America</a>
-                        <a href="#">North Hemisphere</a>
-                        <a href="#">South America</a>
-                        <a href="#">Worldwide</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-        </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            </div>
+    </div>
+</ul>
+
+    <div id="supercat">
+        <h1 class="text-center">READY TO FIND SOME REAL SUPERHEROES IN THE WILD?</h1>
+        <img class="img-fluid mx-auto d-block" src="img/IllfatedDeadHeifer-size_restricted.gif" height="200" width="200"/>
     </div>
 
-    <img class="img-fluid mx-auto d-block supercat" src="img/IllfatedDeadHeifer-size_restricted.gif" height="200" width="200"/>
-
-    <div class="container">
+    <div class="container" id="get-started">
         <div class="row">
             <div class="col text-center">
                 <button type="button" class="button"><a href="#">GET STARTED</a></button>
@@ -51,7 +58,7 @@
         </div>
     </div>
 
-    <footer class="text-center py-3">
+    <footer class="text-center py-3 fixed-bottom">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
     </footer>
