@@ -3,14 +3,11 @@ body {
     background-color: #f0f8ff;
 }
 
-.my_row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.content {
+    margin-bottom: 50px;
 }
 
-.nav {
+nav {
     background-color: #ffcc00;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -20,8 +17,16 @@ body {
     width: 100%;
 }
 
-.nav a {
-    /*float: right;*/
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar a {
     display: inline-block;
     color: inherit;
     text-align: center;
@@ -30,15 +35,23 @@ body {
 }
 
 
-.nav a:hover {
+.navbar a:hover {
     background: #f0f8ff;
     color: #ffcc00;
-    padding: auto;
+    width: 100px;
+    text-align: center;
+    /*padding-left: 3px;*/
+    /*padding-right: 3px;*/
+}
+
+#collapse_target {
+    justify-content: flex-end;
 }
 
 .nav-item {
     position: relative;
-    top: 7px;
+    top: 8px;
+    /*padding-right: 5px;*/
 }
 
 .active {
@@ -47,7 +60,7 @@ body {
 }
 
 #sunflower {
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 #supercat {
@@ -66,6 +79,7 @@ body {
     color: white;
     font-weight: 900;
     letter-spacing: 0.1em;
+    position: relative;
 }
 
 .button a {
@@ -77,61 +91,72 @@ body {
 }
 
 footer {
+    position: fixed;
     padding-bottom: 3px;
-    left: 0;
     bottom: 0;
     width: 100%;
-    overflow: auto;
     text-align: center;
+    display: inline-block;
 }
 
-.mega-menu {
+.dropdown-menu {
     /*padding: 10px, 0px;*/
-    width: 540px;
-    border-radius: 0;
+    width: 395px;
+    border-radius: 4;
     margin-top: 0px;
+    border-color: transparent;
+    float: right;
+    right: 0;
+    left: auto;
 }
 
-.mega-menu li {
+.dropdown-list li{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .dropdown-menu {
+        width: 200px;
+    }
+}
+
+.navbar-column {
     display: inline-block;
     float: left;
-    /*padding: 3px 0px;*/
     font-size: 17px;
+    width: 50%;
+    height: 100%;
+    padding-right: 180px;
 }
 
-.mega-menu li.mega-menu-column {
-    margin-right: 20px;
-    width: 200px;
+.navbar-column li {
+    list-style-type: none;
+    width: 170px;
 }
 
-.mega-menu .nav-header {
-    padding: 0;
-    margin-bottom: 10px;
+.navbar-column a {
+    font-size: 15px;
+}
+
+.navbar-column a:hover {
+    background: #ffcc00;
+    color: white;
+    width: 153px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 700px;
+    font-size: 15px;
+}
+
+#nav-header {
+    padding-left: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
     display: inline-block;
     width: 100%;
     border-bottom: 1px solid #ddd;
     font-weight: 900;
-    line-height: 50px;
-}
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: 100%;
-}
-
-.column a {
-    font-size: 15px;
+    line-height: 25px;
     text-align: left;
-    width: 200px;
-    padding: 5px;
 }
 
-.column a:hover {
-    background-color: #ffcc00;
-    color: white;
-    width: 150px;
-    text-align: left;
-    /*padding: 10px;*/
-}

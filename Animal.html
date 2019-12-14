@@ -9,37 +9,62 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div>
-        <ul class="nav justify-content-end">
-            <li><img id="sunflower" width="40px" src="img/sunflower.gif"/></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Animal</a>
-                <div class="dropdown-menu">
-                    <div class="column">
-                        <h3>Type</h3>
-                        <a href="#">Amphibians</a>
-                        <a href="#">Birds</a>
-                        <a href="#">Fish</a>
-                        <a href="#">Invertebrates</a>
-                        <a href="#">Mammals</a>
-                        <a href="#">Reptiles</a>
-                    </div>
-                    <div class="column">
-                        <h3>Areas</h3>
-                        <a href="#">Africa</a>
-                        <a href="#">Asia</a>
-                        <a href="#">Australia</a>
-                        <a href="#">North America</a>
-                        <a href="#">North Hemisphere</a>
-                        <a href="#">South America</a>
-                        <a href="#">Worldwide</a>
-                    </div>
+    <nav class="navbar navbar-expand-md fixed-t4">
+    <button class="navbar-toggle" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggle-icon"><img  id="sunflower" width="40px" src="img/sunflower.gif"/></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown" id="dropdown_target">Animal
+                    <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu" aria-lablledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <div class="navbar-column">
+                            <li>
+                                <a class="dropdown-item" id="nav-header">Types</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <ul>
+                                            <li><a href="#">Amphibians</a></li>
+                                            <li><a href="#">Birds</a></li>
+                                            <li><a href="#">Fish</a></li>
+                                            <li><a href="#">Invertebrates</a></li>
+                                            <li><a href="#">Mammals</a></li>
+                                            <li><a href="#">Reptiles</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="navbar-column">
+                            <li>
+                                <a class="dropdown-item" id="nav-header">Areas</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <ul>
+                                            <li><a href="#">Worldwide</a></li>
+                                            <li><a href="#">Africa</a></li>
+                                            <li><a href="#">Asia</a></li>
+                                            <li><a href="#">Australia</a></li>
+                                            <li><a href="#">North America</a></li>
+                                            <li><a href="#">North Hemisphere</a></li>
+                                            <li><a href="#">South America</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
         </ul>
     </div>
+</nav>
 
     <div class="search-box">
         <div class="animal-type">
