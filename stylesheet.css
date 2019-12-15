@@ -46,11 +46,17 @@ body {
     font-size: 17px;
 }
 
+
 a.more{
   width: 414px;
   margin-left: 58px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  display: block;
+}
+
+.parent{
+  position: relative;
 }
 
 h1{
@@ -62,9 +68,11 @@ h1{
 img.animal{
   border:5px solid #f0f8ff;
   outline:5px solid rgb(251, 204, 51);
-  margin-top: 100px;
   margin-left: 50px;
+  margin-top: 170px;
 }
+
+
 
 div.information{
   margin-top: 20px;
