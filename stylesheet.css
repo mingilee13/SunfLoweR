@@ -17,6 +17,7 @@ button {
     padding: 0;
     border: none;
     font: inherit;
+    font: inherit;
     color: inherit;
     background-color: transparent;
     cursor: pointer;
@@ -116,6 +117,16 @@ footer {
     }
 }
 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+}
+
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+}
+
 .navbar-column {
     display: inline-block;
     float: left;
@@ -199,6 +210,10 @@ form {
     text-align: center;
 }
 
+.animal-alphabet {
+    padding-left: 50px;
+}
+
 .card-body {
     padding: 10px;
 }
@@ -216,3 +231,4 @@ h1 {
     font-size: 30px;
     text-align: left;
 }
+
