@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01868238-c45d-478d-b3f8-f6d803b6d720" name="Default Changelist" comment="edit glitching in dropdown menu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
-    </list>
+    <list default="true" id="01868238-c45d-478d-b3f8-f6d803b6d720" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +16,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/stylesheet.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="544">
-                    <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/index.html">
-                <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="221">
-                    <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="40" />
-                    <folding>
-                      <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                    </folding>
+                    <caret line="119" selection-start-line="119" selection-end-line="127" selection-end-column="1" />
                   </state>
                 </provider>
               </entry>
@@ -57,6 +33,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -106,6 +94,7 @@
       <find>hover</find>
       <find>border</find>
       <find>mx-auto</find>
+      <find>dropdown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,47 +109,23 @@
         <option value="$PROJECT_DIR$/Animal-detail.html" />
         <option value="$PROJECT_DIR$/mega.html" />
         <option value="$PROJECT_DIR$/menu.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Animal.html" />
         <option value="$PROJECT_DIR$/stylesheet.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SunfLoweR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SunfLoweR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SunfLoweR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SunfLoweR" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-4.4.1-dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SunfLoweR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SunfLoweR" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-4.4.1-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -212,7 +177,7 @@
       <workItem from="1576193780212" duration="7075000" />
       <workItem from="1576260624616" duration="18803000" />
       <workItem from="1576434084569" duration="8019000" />
-      <workItem from="1576451117335" duration="254000" />
+      <workItem from="1576451117335" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="index html&#10;unfinished homepage&#10;need css styling">
       <created>1575599301044</created>
@@ -312,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576295369658</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nav-bar dropdown on hover">
+      <created>1576451388182</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576451388183</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92169000" />
+    <option name="totallyTimeSpent" value="92618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="761" y="0" width="782" height="831" extended-state="0" />
@@ -403,7 +375,8 @@
     <MESSAGE value="dropdown done, need responsive menu" />
     <MESSAGE value="responsive menu completed! Needs edit footer..." />
     <MESSAGE value="edit glitching in dropdown menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit glitching in dropdown menu" />
+    <MESSAGE value="nav-bar dropdown on hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav-bar dropdown on hover" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/drop down mega.html" />
@@ -416,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/menu.html" />
-    <entry file="file://$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8520" column="8" selection-start-line="8520" selection-start-column="1" selection-end-line="8520" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Animal-detail.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -436,20 +402,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="8520" column="8" selection-start-line="8520" selection-start-column="1" selection-end-line="8520" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="119" selection-start-line="119" selection-end-line="127" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
