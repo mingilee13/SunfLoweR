@@ -9,56 +9,81 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div>
-        <ul class="nav justify-content-end">
-            <li><img id="sunflower" width="40px" src="img/sunflower.gif"/></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+    <nav class="navbar navbar-expand-md fixed-t4">
+    <button class="navbar-toggle" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggle-icon"><img  id="sunflower" width="40px" src="img/sunflower.gif"/></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Animal</a>
-                <div class="dropdown-menu">
-                    <div class="column">
-                        <h3>Type</h3>
-                        <a href="#">Amphibians</a>
-                        <a href="#">Birds</a>
-                        <a href="#">Fish</a>
-                        <a href="#">Invertebrates</a>
-                        <a href="#">Mammals</a>
-                        <a href="#">Reptiles</a>
-                    </div>
-                    <div class="column">
-                        <h3>Areas</h3>
-                        <a href="#">Africa</a>
-                        <a href="#">Asia</a>
-                        <a href="#">Australia</a>
-                        <a href="#">North America</a>
-                        <a href="#">North Hemisphere</a>
-                        <a href="#">South America</a>
-                        <a href="#">Worldwide</a>
-                    </div>
+                <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown" id="dropdown_target">Animal
+                    <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu" aria-lablledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <div class="navbar-column">
+                            <li>
+                                <a class="dropdown-item" id="nav-header">Types</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <ul>
+                                            <li><a href="#">Amphibians</a></li>
+                                            <li><a href="#">Birds</a></li>
+                                            <li><a href="#">Fishes</a></li>
+                                            <li><a href="#">Invertebrates</a></li>
+                                            <li><a href="#">Mammals</a></li>
+                                            <li><a href="#">Reptiles</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="navbar-column">
+                            <li>
+                                <a class="dropdown-item" id="nav-header">Areas</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <ul>
+                                            <li><a href="#">Worldwide</a></li>
+                                            <li><a href="#">Africa</a></li>
+                                            <li><a href="#">Asia</a></li>
+                                            <li><a href="#">Australia</a></li>
+                                            <li><a href="#">North America</a></li>
+                                            <li><a href="#">North Hemisphere</a></li>
+                                            <li><a href="#">South America</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
         </ul>
     </div>
+</nav>
 
-    <div class="search-box">
+    <div class="mx-auto search-box">
         <div class="animal-type">
+        <p><b>CHOOSE</b></p>
             <form>
                 <label for="animal-types">Type</label>
                 <select id="animal-types">
                     <option selected="selected" value="">Select the animal type</option>
-                    <option value="amphibian">Amphibian</option>
-                    <option value="arthopod">Arthopod</option>
-                    <option value="bird">Bird</option>
-                    <option value="fish">Fish</option>
+                    <option value="amphibian">Amphibians</option>
+                    <option value="bird">Birds</option>
+                    <option value="fish">Fishes</option>
+                    <option value="invertebrates">Invertebrates</option>
                     <option value="mammals">Mammals</option>
-                    <option value="mollusk">Mollusk</option>
                     <option value="reptiles">Reptiles</option>
                 </select>
             </form>
         </div>
 
-        <p>OR</p>
+        <p><b>OR</b></p>
 
         <div class="animal-areas">
             <form>
@@ -79,50 +104,132 @@
 
 
 
-    <div class="animal-list">
-        <p>A</p>
-        <ul id="animal-list1">
-            <li>
-                <a class="animal-image">
-                    <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
-                </a>
-                <div class="nimal-description">
-                    <p>Animal description</p>
+    <div class="mx-auto container animal-list">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">B</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Basilisk Lizard</p>
+                        </div>
+                    </div>
                 </div>
-            </li>
 
-            <li>
-                <a class="animal-image">
-                    <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
-                </a>
-                <div class="animal-description">
-                    <p>Animal description</p>
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">D</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Dung Beetle</p>
+                        </div>
+                    </div>
                 </div>
-            </li>
-        </ul>
 
-        <p>B</p>
-        <ul id="animal-list2">
-            <li>
-                <a class="animal-image">
-                    <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
-                </a>
-                <div class="animal-description">
-                    <p>Animal description</p>
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">E</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Electric Eel</p>
+                        </div>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <a class="animal-image">
-                    <img src="img/Tonicella-lineata.jpg" height="898" width="1483"/>
-                </a>
-                <div class="animal-description">
-                    <p>Animal description</p>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">F</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Flea</p>
+                        </div>
+                    </div>
                 </div>
-            </li>
-        </ul>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">L</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Lyrebird</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">M</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Mantis Shrimp</p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Mimic Octopus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">P</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Pit Viper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">S</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Salamander</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">T</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Tardigrades</p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Turritopsis dohrnii</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animal-by-name">
+                    <h1 class="animal-alphabet">W</h1>
+                    <div class="card">
+                        <img class="card-img-top" src="img/invertebrate.png" height="150" width="50"/ alt="NAME OF THE ANIMAL">
+                        <div class="card-body">
+                            <p class="card-title">Wood Frog</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer class="text-center py-3">
+
+
+    <footer>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
     </footer>
