@@ -217,7 +217,7 @@ form {
 }
 
 .animal-alphabet {
-    padding-left: 50px;
+    padding-left: 50px !important;
 }
 
 .card-body {

@@ -30,12 +30,12 @@
                                 <div class="row">
                                     <div class="column">
                                         <ul>
-                                            <li><a href="#">Amphibians</a></li>
-                                            <li><a href="#">Birds</a></li>
-                                            <li><a href="#">Fishes</a></li>
-                                            <li><a href="#">Invertebrates</a></li>
-                                            <li><a href="#">Mammals</a></li>
-                                            <li><a href="#">Reptiles</a></li>
+                                            <li><a href="Animal.html">Amphibians</a></li>
+                                            <li><a href="Animal.html">Birds</a></li>
+                                            <li><a href="Animal.html">Fishes</a></li>
+                                            <li><a href="Animal.html">Invertebrates</a></li>
+                                            <!--<li><a href="#">Mammals</a></li>-->
+                                            <li><a href="Animal.html">Reptiles</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -47,13 +47,13 @@
                                 <div class="row">
                                     <div class="column">
                                         <ul>
-                                            <li><a href="#">Worldwide</a></li>
-                                            <li><a href="#">Africa</a></li>
-                                            <li><a href="#">Asia</a></li>
-                                            <li><a href="#">Australia</a></li>
-                                            <li><a href="#">North America</a></li>
-                                            <li><a href="#">North Hemisphere</a></li>
-                                            <li><a href="#">South America</a></li>
+                                            <li><a href="Animal.html">Worldwide</a></li>
+                                            <!--<li><a href="#">Africa</a></li>-->
+                                            <li><a href="Animal.html">Asia</a></li>
+                                            <li><a href="Animal.html">Australia</a></li>
+                                            <li><a href="Animal.html">North America</a></li>
+                                            <li><a href="Animal.html">North Hemisphere</a></li>
+                                            <li><a href="Animal.html">South America</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,18 +68,19 @@
 </nav>
 
     <div class="mx-auto search-box">
-        <div class="animal-type">
+        <div class="animal-types">
         <p><b>CHOOSE</b></p>
             <form>
                 <label for="animal-types">Type</label>
-                <select id="animal-types" onchange="changeFunc();">
+                <select id="animal-types" onchange="typeselectFunc();">
                     <option selected="selected" value="">Select the animal type</option>
                     <option value="amphibians">Amphibians</option>
                     <option value="birds">Birds</option>
                     <option value="fishes">Fishes</option>
                     <option value="invertebrates">Invertebrates</option>
-                    <option value="mammals">Mammals</option>
+                    <!--<option value="mammals">Mammals</option>-->
                     <option value="reptiles">Reptiles</option>
+                    <option value="all-types">All types</option>
                 </select>
             </form>
         </div>
@@ -89,15 +90,16 @@
         <div class="animal-areas">
             <form>
                 <label for="animal-areas">Areas</label>
-                <select id="animal-areas">
+                <select id="animal-areas" onchange="areaselectFunc();">
                     <option value="">Select the animal areas</option>
                     <option value="worldwide">Worldwide</option>
-                    <option value="africa">Africa</option>
+                    <!--<option value="africa">Africa</option>-->
                     <option value="asia">Asia</option>
                     <option value="Australia">Australia</option>
                     <option value="north-america">North America</option>
                     <option value="northern-hemisphere">Northern Hemisphere</option>
                     <option value="south-america">South America</option>
+                    <option value="all-areas">All areas</option>
                 </select>
             </form>
         </div>
@@ -109,8 +111,8 @@
         <div class="row">
             <div  class="col-sm-12 col-md-6 col-lg-6">
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">B</h1>
-                    <div id="animal_b">
+                    <div id="01">
+                        <h1 class="animal-alphabet">B</h1>
                         <a href="#" class="animal-link">
                             <div class="card">
                                 <img class="card-img-top" src="img/basilisk_lizard.jpg" height="150" width="50"/ alt="BASILISK_LIZARD">
@@ -125,8 +127,8 @@
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">D</h1>
-                    <div id="animal_d" >
+                    <div id="02" >
+                        <h1 class="animal-alphabet">D</h1>
                         <a href="#" class="animal-link">
                             <div class="card">
                                 <img class="card-img-top" src="img/dung_beetle.jpg" height="150" width="50"/ alt="DUNG_BEETLE">
@@ -140,8 +142,8 @@
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">E</h1>
-                    <div id="animal_e">
+                    <div id="03">
+                        <h1 class="animal-alphabet">E</h1>
                         <a href="#" class="animal-link">
                             <div  class="card">
                                 <img class="card-img-top" src="img/electric_eel.jpg" height="150" width="50"/ alt="ELECTRIC_EEL">
@@ -154,109 +156,134 @@
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">F</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/flea.jpeg" height="150" width="50"/ alt="FLEA">
-                        <div class="card-body">
-                            <p class="card-title">Flea</p>
-                        </div>
-                    </a>
+                    <div id="04">
+                        <h1 class="animal-alphabet">F</h1>
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/flea.jpeg" height="150" width="50"/ alt="FLEA">
+                                <div class="card-body">
+                                    <p class="card-title">Flea</p>
+                                </div>
+                        </a>
+                    </div>
+
                     </div>
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">L</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/lyrebird.jpg" height="150" width="50"/ alt="LYREBIRD">
-                        <div class="card-body">
-                            <p class="card-title">Lyrebird</p>
-                        </div>
-                    </a>
+                    <div id="05">
+                        <h1 class="animal-alphabet">L</h1>
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/lyrebird.jpg" height="150" width="50"/ alt="LYREBIRD">
+                                <div class="card-body">
+                                    <p class="card-title">Lyrebird</p>
+                                </div>
+                        </a>
+                    </div>
+
                     </div>
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">M</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/mantis_shrimp.jpeg" height="150" width="50"/ alt="MANTIS_SHRIMP">
-                        <div class="card-body">
-                            <p class="card-title">Mantis Shrimp</p>
-                        </div>
+                    <h1 id="M" class="animal-alphabet">M</h1>
+                    <div id="06">
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/mantis_shrimp.jpeg" height="150" width="50"/ alt="MANTIS_SHRIMP">
+                                <div class="card-body">
+                                    <p class="card-title">Mantis Shrimp</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
+
                     <br><br>
 
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/mimic_octopus.jpg" height="150" width="50"/ alt="MIMIC_OCTOPUS">
-                        <div class="card-body">
-                            <p class="card-title">Mimic Octopus</p>
-                        </div>
+                    <div id="07">
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/mimic_octopus.jpg" height="150" width="50"/ alt="MIMIC_OCTOPUS">
+                                <div class="card-body">
+                                    <p class="card-title">Mimic Octopus</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
             </div>
 
 
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">P</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/pit_viper.jpeg" height="150" width="50"/ alt="PIT_VIPER">
-                        <div class="card-body">
-                            <p class="card-title">Pit Viper</p>
-                        </div>
+                    <div id="08">
+                        <h1 class="animal-alphabet">P</h1>
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/pit_viper.jpeg" height="150" width="50"/ alt="PIT_VIPER">
+                                <div class="card-body">
+                                    <p class="card-title">Pit Viper</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
+
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">S</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/salamander.jpg" height="150" width="50"/ alt="SALAMANDER">
-                        <div class="card-body">
-                            <p class="card-title">Salamander</p>
-                        </div>
+                    <div id="09">
+                        <h1 class="animal-alphabet">S</h1>
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/salamander.jpg" height="150" width="50"/ alt="SALAMANDER">
+                                <div class="card-body">
+                                    <p class="card-title">Salamander</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
+
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">T</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/tardigrade.png" height="150" width="50"/ alt="TARDIGRADES">
-                        <div class="card-body">
-                            <p class="card-title">Tardigrades</p>
-                        </div>
+                    <h1 id="T" class="animal-alphabet">T</h1>
+                    <div id="10">
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/tardigrade.png" height="150" width="50"/ alt="TARDIGRADES">
+                                <div class="card-body">
+                                    <p class="card-title">Tardigrades</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
+
                     <br><br>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/turritopsis_dohrnii.jpg" height="150" width="50"/ alt="TURRITOPSIS_DOHRNII">
-                        <div class="card-body">
-                            <p class="card-title">Turritopsis dohrnii</p>
-                        </div>
+                    <div id="11">
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/turritopsis_dohrnii.jpg" height="150" width="50"/ alt="TURRITOPSIS_DOHRNII">
+                                <div class="card-body">
+                                    <p class="card-title">Turritopsis dohrnii</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
+
                 </div>
 
                 <div class="animal-by-name">
-                    <h1 class="animal-alphabet">W</h1>
-                    <a href="#" class="animal-link">
-                    <div class="card">
-                        <img class="card-img-top" src="img/wood_frog.jpeg" height="150" width="50"/ alt="WOOD_FROG">
-                        <div class="card-body">
-                            <p class="card-title">Wood Frog</p>
-                        </div>
+                    <div id="12">
+                        <h1 class="animal-alphabet">W</h1>
+                        <a href="#" class="animal-link">
+                            <div class="card">
+                                <img class="card-img-top" src="img/wood_frog.jpeg" height="150" width="50"/ alt="WOOD_FROG">
+                                <div class="card-body">
+                                    <p class="card-title">Wood Frog</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
             </div>
         </div>
@@ -269,7 +296,8 @@
         <a href="#" class="fa fa-twitter"></a>
     </footer>
 
-    <script src="javascript.js"></script>
+    <script src="animal-page-js.js"></script>
+    <!--<script src="animal-page-js2.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
