@@ -1,9 +1,10 @@
 .team-names {
 text-align: center;
-font-weight: bold; 
+font-weight: bold;
 }
 .member-names {
 text-align: center;
+color: brown;
 }
 .description {
   text-align: center;
