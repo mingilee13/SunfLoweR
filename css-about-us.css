@@ -1,6 +1,7 @@
 .team-names {
 text-align: center;
 font-weight: bold;
+text-underline-position: below;
 }
 .member-names {
 text-align: center;
